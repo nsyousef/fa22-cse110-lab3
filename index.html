@@ -1,10 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>4/12/2023 - Meeting Minutes</title>
+        <title>4/12/2023 - Lego Competition First Brainstorm - Meeting Minutes</title>
         <meta charset="utf-8">
         <link rel="icon" href="Handshake.png">
     </head>
     <body>
+        <header>
+            <details>
+                <summary>Click to show Table of Contents</summary>
+                <h2>Table of Contents</h2>
+                <nav>
+                    <ul>
+                        <li>
+                            Meeting Logistics and Content
+                            <ul>
+                                <li>Agenda</li>
+                                <li>Unfinished Business</li>
+                                <li>New Business</li>
+                            </ul>
+                        </li>
+                        <li>Meeting Notes</li>
+                        <li>
+                            Comments, Questions, Concerns
+                            <ul>
+                                <li>During Meeting</li>
+                                <li>Additional Questions/Comments/Concerns</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </details>
+        </header>
+        <main>
+            <h1>
+                Lego Competition First Brainstorm
+            </h1>
+            <section>
+                <h2>Topic</h2>
+                <p>Brainstorm</p>
+                <h2>Date</h2>
+                <p>4/12/2023</p>
+                <h2>Attendance</h2>
+                <ul>
+                    <li>Nick</li>
+                    <li>Larry</li>
+                    <li>Barry</li>
+                    <li>Harry</li>
+                    <li>Gary</li>
+                </ul>
+            </section>
+            <hr>
+            <section>
+                <h2>Meeting Logistics and Content</h2>
+                <h3>Agenda</h3>
+                <ol>
+                    <li>Icebreaker</li>
+                    <li>
+                        Finish Overview of Lego Competition
+                        <ul>
+                            <li>Timeline</li>
+                            <li>Inspiration from Last Year</li>
+                        </ul>
+                    </li>
+                    <li>List Ideas</li>
+                    <li>Vote on Idea</li>
+                    <li>Assign Initial Roles</li>
+                </ol>
+                <h3>Unfinished Business from Last Meeting</h3>
+                <ul>
+                    <li>Finish Competition Overview</li>
+                </ul>
+                <h3>New Business for This Meeting</h3>
+                <ul>
+                    <li>Brainstorm Idea For Project</li>
+                    <li>Assign Project Roles</li>
+                    <li>Budgeting/Resources Available (Legos are expensive!)</li>
+                </ul>
+            </section>
+            <hr>
+            <section>
+                <h2>Meeting Notes</h2>
+            </section>
+            <section>
+                <h2>Comments, Questions, Concerns</h2>
+                <h3>Things that Came Up During Meeting</h3>
+                <h3>Additional Questions/Comments/Concerns</h3>
+                <p>If any additional questions, comments, or concerns come up after the meeting while you are working, feel free to submit them using the form below. We will try to address them as soon as possible.</p>
+                <form name="questions" autocomplete="on">
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <div>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name">
+                        </div>
+                        <div>
+                            <label for="email">Email Address:</label>
+                            <input type="text" id="email" name="email">
+                        </div>
+                        <div>
+                            <label for="phone">Phone Number:</label>
+                            <input type="text" id="phone" name="phone">
+                        </div>
+                        <div>
+                            <input type="checkbox" id="text-permission" name="text-permission">
+                            <label for="text-permission">I give permission to be contacted via text messages about responses to my question (message and data rates may apply).</label>
+                        </div>
+                        <div>
+                            <label for="location-box">Where are you located right now? If your location is not listed, please type it in manually.</label>
+                            <input id="location-box" list="location" name="location">
+                            <datalist id="location">
+                                <option value="Camarillo"></option>
+                                <option value="Thousand Oaks"></option>
+                                <option value="Oxnard"></option>
+                                <option value="Simi Valley"></option>
+                            </datalist>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Permissions</legend>
+                        <div>
+                            <input type="radio" name="permissions" id="public">
+                            <label for="public">Post my response to the team's discussion board, so that everyone can see and answer it.</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="permissions" id="private">
+                            <label for="private">Only send my response to the project lead (Larry) so he can respond via email.</label>
+                        </div>
+                        <div>
+                            <label for="name-select">How would you like to be identified when your question posts?</label>
+                            <select name="name-options" id="name-select">
+                                <option value="anon-to-all">anonymous to all</option>
+                                <option value="anon-except-lead">anonymous to all except the project lead</option>
+                                <option value="myself">as myself</option>
+                                
+                            </select>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Your Questions/Comments/Concerns</legend>
+                        <div>
+                            <label for="response-time">By what date should we try to answer your question?</label>
+                            <input type="date" id="response-time" name="response-time">
+                        </div>
+                        <div>
+                            <label for="questions">Enter your questions, comments, or concerns here:</label>
+                        </div>
+                        <div>
+                            <textarea id="questions" name="questions" rows="5" cols="38"></textarea>
+                        </div>
+                    </fieldset>
+                    <button class="submit" type="button">Submit</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+
+        </footer>
     </body>
 </html>
