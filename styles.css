@@ -3,6 +3,9 @@ body {
     background-image: url(lego_bricks.jpg);
     background-size: contain;
     background-repeat: repeat-y;
+    display: grid;
+    grid-template-columns: 0.1fr 1fr 0.1fr;
+    grid-template-rows: 1fr;
 }
 
 /* Style the header and footer to look nice in front of the background */
@@ -17,8 +20,9 @@ header, footer, main {
     margin-right: 2vi;
     margin-top: 1em;
     margin-bottom: 1em;
-    max-width: 11in;
-    display: block;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: inline-block;
 }
 
 header {
