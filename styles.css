@@ -1,0 +1,44 @@
+/* Set the background for the page */
+body {
+    background-image: url(lego_bricks.jpg);
+    background-size: contain;
+    background-repeat: repeat-y;
+}
+
+/* Style the header and footer to look nice in front of the background */
+header, footer, main {
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10pt;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin-left: 2vi;
+    margin-right: 2vi;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    max-width: 11in;
+    display: block;
+}
+
+header {
+    padding-bottom: 0.5cm;
+    padding-top: 0cm;
+    background-color: rgba(246, 210, 71, 0.9);
+}
+
+footer {
+    padding-bottom: 0.3cm;
+    padding-top: 0.3cm;
+    background-color: hsla(48, 91%, 62%, 0.9);
+}
+
+main {
+    background-color: whitesmoke;
+}
+
+#logo {
+    width: 5cm;
+    height: 5cm;
+}
+
