@@ -17,6 +17,12 @@
 
 }
 
+/* set font using universal selector */
+
+* {
+    font-family: work_sansregular;
+}
+
 /* Set the background for the page */
 body {
     background-image: url(lego_bricks.jpg);
@@ -25,7 +31,6 @@ body {
     display: grid;
     grid-template-columns: 0.1fr 1fr 0.1fr;
     grid-template-rows: 1fr;
-    font-family: work_sansregular;
 }
 
 /* Style the header and footer to look nice in front of the background */
@@ -68,3 +73,34 @@ main {
     height: 5cm;
 }
 
+/* make search bar and search button look nice */
+
+.search {
+    background-color: #f6d346;
+    border: 2pt solid black;
+    margin: 0px 0px 0px 0px;
+    padding: 5px 5px 5px 5px;
+}
+
+.search:hover {
+    background-color: #f9c906;
+}
+
+[darken=True]:active {
+    background-color: #9c7c00;
+}
+
+input.search:focus {
+    background-color: antiquewhite;
+    outline: none;
+}
+
+header input {
+    border-bottom-left-radius: 10pt;
+    border-top-left-radius: 10pt;
+}
+
+input + button {
+    border-bottom-right-radius: 10pt;
+    border-top-right-radius: 10pt;
+}
