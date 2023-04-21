@@ -54,6 +54,8 @@ header {
     padding-bottom: 0.5cm;
     padding-top: 0cm;
     background-color: rgba(246, 210, 71, 0.9);
+    position: sticky;
+    top: -5cm;
 }
 
 footer {
