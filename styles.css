@@ -104,3 +104,10 @@ input + button {
     border-bottom-right-radius: 10pt;
     border-top-right-radius: 10pt;
 }
+
+/* style H1 in main body so it is centered with wavy underline and blue */
+main > h1 {
+    color: rgb(72, 156, 234);
+    text-align: center;
+    text-decoration: wavy underline;
+}
