@@ -1,3 +1,14 @@
+/* Load Clicky Bricks font for webpage title */
+
+@font-face {
+    font-family: 'clicky_bricks_2regular';
+    src: url('fonts/clickybricks2regular-nrgd4-webfont.woff2') format('woff2'),
+         url('fonts/clickybricks2regular-nrgd4-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* Set the background for the page */
 body {
     background-image: url(lego_bricks.jpg);
