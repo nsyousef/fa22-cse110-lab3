@@ -2,8 +2,16 @@
 
 @font-face {
     font-family: 'clicky_bricks_2regular';
-    src: url('fonts/clickybricks2regular-nrgd4-webfont.woff2') format('woff2'),
-         url('fonts/clickybricks2regular-nrgd4-webfont.woff') format('woff');
+    src: url('fonts/clicky_bricks/clickybricks2regular-nrgd4-webfont.woff2') format('woff2'),
+         url('fonts/clicky_bricks/clickybricks2regular-nrgd4-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'work_sansregular';
+    src: url('fonts/work_sans/worksans-variablefont_wght-webfont.woff2') format('woff2'),
+         url('fonts/work_sans/worksans-variablefont_wght-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -17,6 +25,7 @@ body {
     display: grid;
     grid-template-columns: 0.1fr 1fr 0.1fr;
     grid-template-rows: 1fr;
+    font-family: work_sansregular;
 }
 
 /* Style the header and footer to look nice in front of the background */
@@ -51,6 +60,8 @@ footer {
 main {
     background-color: whitesmoke;
 }
+
+/* make logo brick look nice */
 
 #logo {
     width: 5cm;
