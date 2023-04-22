@@ -27,7 +27,7 @@
 body {
     background-image: url(lego_bricks.jpg);
     background-size: contain;
-    background-repeat: repeat-y;
+    background-repeat: repeat;
     display: grid;
     grid-template-columns: 0.1fr 1fr 0.1fr;
     grid-template-rows: 1fr;
@@ -55,6 +55,19 @@ header {
     padding-top: 0cm;
     background-color: rgba(246, 210, 71, 0.9);
     position: static;
+    text-align: center;
+}
+
+#header-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#search-field {
+    display: inline;
 }
 
 #to-top {
@@ -98,11 +111,19 @@ main {
     background-color: whitesmoke;
 }
 
-/* make logo brick look nice */
+/* make logo bricks look nice */
 
 #logo {
     width: 5cm;
     height: 5cm;
+    margin-right: 10pt;
+    margin-left: 10pt;
+}
+
+#logo2 {
+    height: 3cm;
+    margin-right: 5pt;
+    margin-left: 5pt;
 }
 
 /* make search bar and search button look nice */
