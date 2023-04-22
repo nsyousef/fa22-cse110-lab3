@@ -8,11 +8,14 @@
     </head>
     <body>
         <header>
-            <img id="logo" src="lego-brick.png" alt="Logo: a lego brick">
-            <h1 style="font-family: clicky_bricks_2regular;">Lego Competition Meeting Minutes</h1>
+            <div id="header-flex">
+                <img id="logo" src="lego-brick.png" alt="Logo: a lego brick">
+                <h1 style="font-family: clicky_bricks_2regular; margin-right: 10pt; margin-left: 10pt; text-align: center;">Lego Competition Meeting Minutes</h1>
+                <img id="logo2" src="green-brick.png" alt="Logo: a green lego brick">
+            </div>
             <p>This site holds the meeting minutes from all our meetings for the Lego Competition!</p>
-            <form name="search" autocomplete="on">
-                <label for="search_box">Search for a Meeting:</label>
+            <form name="search" autocomplete="on" id="search-field">
+                <label for="search_box">Find Meeting:</label>
                 <!--Note: need input and button on same line so there is no space between them in rendered page-->
                 <input type="text" name="search_box" id="search_box", class="search"><button class="search" darken="True">Search</button>
             </form>
@@ -263,7 +266,8 @@
             <section>
                 <h2>Credits</h2>
                 <p>Death Star image source: <cite><a href="http://brickdigest.com/2016/09/01/new-lego-death-star-75159-old-lego-death-star-10188/">http://brickdigest.com/2016/09/01/new-lego-death-star-75159-old-lego-death-star-10188/</a></cite></p>
-                <p>Lego Brick image source: <cite><a href="https://www.turbosquid.com/3d-models/3d-bright-red-lego-bricks-1492395">https://www.turbosquid.com/3d-models/3d-bright-red-lego-bricks-1492395</a></cite></p>
+                <p>Red Lego Brick image source: <cite><a href="https://www.turbosquid.com/3d-models/3d-bright-red-lego-bricks-1492395">https://www.turbosquid.com/3d-models/3d-bright-red-lego-bricks-1492395</a></cite></p>
+                <p>Green Lego Brick image source: <cite><a href="https://www.turbosquid.com/3d-models/3d-model-lego-brick-2x2-earth-1409462">https://www.turbosquid.com/3d-models/3d-model-lego-brick-2x2-earth-1409462</a></cite></p>
                 <p>Lego Bricks wallpaper source: <cite><a href="https://www.lego.com/nl-nl/aboutus/suppliers">https://www.lego.com/nl-nl/aboutus/suppliers</a></cite></p>
                 <p>Lego Font Source: <cite><a href="https://www.fontspace.com/clicky-bricks-2-font-f74595">https://www.fontspace.com/clicky-bricks-2-font-f74595</a></cite></p>
             </section>
