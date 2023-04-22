@@ -121,3 +121,13 @@ main > h1 {
     text-align: center;
     text-decoration: wavy underline;
 }
+
+/* Style table of contents in main page*/
+
+h2 ~ details {
+    border-style: solid;
+    border-width: 2pt;
+    padding: 5pt;
+    margin: auto;
+    display: inline-block;
+}
