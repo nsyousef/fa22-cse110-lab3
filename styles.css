@@ -54,8 +54,16 @@ header {
     padding-bottom: 0.5cm;
     padding-top: 0cm;
     background-color: rgba(246, 210, 71, 0.9);
-    position: sticky;
-    top: -5cm;
+    position: static;
+}
+
+/* on mobile devices, hide the header so that it does not get in the way on the small screen */
+
+@media (min-width: 1000px) {
+    header {
+        position: sticky;
+        top: -5cm;
+    }
 }
 
 footer {
