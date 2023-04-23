@@ -4,6 +4,8 @@
 
 ## Team (number and name): 
 
+## Leader Name: 
+
 ## Time and place:
 
 **Date:**
