@@ -16,15 +16,17 @@
 
 ## Team Progress:
 
-|Name|Worked on Yesterday|Work on Today|Blockers|
-|----|-------------------|-------------|--------|
-|    |                   |             |        |
-|    |                   |             |        |
-|    |                   |             |        |
-|    |                   |             |        |
-|    |                   |             |        |
-|    |                   |             |        |
-|    |                   |             |        |
-|    |                   |             |        |
-|    |                   |             |        |
-|    |                   |             |        |
+|Name|Worked on Yesterday|Work on Today|Blockers|Additional Notes (opt.)|
+|----|-------------------|-------------|--------|-----------------------|
+|    |                   |             |        |                       |
+|    |                   |             |        |                       |
+|    |                   |             |        |                       |
+|    |                   |             |        |                       |
+|    |                   |             |        |                       |
+|    |                   |             |        |                       |
+|    |                   |             |        |                       |
+|    |                   |             |        |                       |
+|    |                   |             |        |                       |
+|    |                   |             |        |                       |
+
+## Additional Notes (opt.):
