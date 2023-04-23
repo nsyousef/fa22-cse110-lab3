@@ -83,7 +83,7 @@ footer {
 }
 
 main {
-    background-color: whitesmoke;
+    background-color: hsl(0, 0%, 96%);
 }
 
 /* Styles the to-top button that only appears on mobile */
@@ -132,7 +132,7 @@ main {
 
 .search {
     background-color: #f6d346;
-    border: 2pt solid black;
+    border: 2pt solid #000;
     margin: 0px 0px 0px 0px;
     padding: 5px 5px 5px 5px;
 }
@@ -142,7 +142,7 @@ main {
 }
 
 [darken=True]:active {
-    background-color: #9c7c00;
+    background-color: #ccb777;
 }
 
 input.search:focus {
