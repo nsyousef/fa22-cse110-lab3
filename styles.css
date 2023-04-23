@@ -23,7 +23,7 @@
     font-family: work_sansregular;
 }
 
-/* Set the background for the page */
+/* Set the background for the page, set up grid */
 body {
     background-image: url(lego_bricks.jpg);
     background-size: contain;
@@ -58,6 +58,18 @@ header {
     text-align: center;
 }
 
+footer {
+    padding-bottom: 0.3cm;
+    padding-top: 0.3cm;
+    background-color: hsla(48, 91%, 62%, 0.9);
+}
+
+main {
+    background-color: hsl(0, 0%, 96%);
+}
+
+/* make elements in header look nice */
+
 #header-flex {
     display: flex;
     flex-direction: row;
@@ -68,22 +80,6 @@ header {
 
 #search-field {
     display: inline;
-}
-
-@media (max-width: 1000px) {
-    body {
-        grid-template-columns: 0fr 1fr 0fr;
-    }
-}
-
-footer {
-    padding-bottom: 0.3cm;
-    padding-top: 0.3cm;
-    background-color: hsla(48, 91%, 62%, 0.9);
-}
-
-main {
-    background-color: hsl(0, 0%, 96%);
 }
 
 /* Styles the to-top button that only appears on mobile */
@@ -101,7 +97,7 @@ main {
     font-size: 30pt;
 }
 
-/* on mobile devices, hide the header so that it does not get in the way on the small screen, and show the to-top button */
+/* on non-mobile devices, hide the header so that it does not get in the way on the small screen, and hide the to-top button */
 
 @media (min-width: 1000px) {
     header {
@@ -110,6 +106,14 @@ main {
     }
     #to-top {
         display: none;
+    }
+}
+
+/* Make cards take up more of screen when on mobile devices */
+
+@media (max-width: 1000px) {
+    body {
+        grid-template-columns: 0fr 1fr 0fr;
     }
 }
 
