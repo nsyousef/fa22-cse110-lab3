@@ -83,7 +83,7 @@ footer {
 }
 
 main {
-    background-color: whitesmoke;
+    background-color: hsl(0, 0%, 96%);
 }
 
 /* Styles the to-top button that only appears on mobile */
